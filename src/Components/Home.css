@@ -1,0 +1,95 @@
+.Home {
+  text-align: center;
+}
+
+.Left-side {
+  height: 100vh;
+  width: 450px;
+  background-color: #AFD4C0;
+  display: flex;
+  float: left;
+}
+
+.Body {
+  height: 100vh;
+  /* width: 1020px; */
+  width: 55vw;
+  background-color: white;
+  display: flex;
+  float: left;
+}
+
+.Logo {
+  height: 250px;
+  width: 200px;
+  background-image: url('../Pictures/auth_logo.png');
+  display: flex;
+  background-size: cover;
+  margin-left: 400px;
+  margin-top: 200px;
+  padding-right: 45px;
+  padding-bottom: 32px;
+}
+
+.Username {
+  margin-right: 420px;
+  font-weight: bolder;
+}
+
+.Username-input {
+  height: 35px;
+  width: 750px;
+  margin-left: 130px;
+  font-size: 25px;
+  border-color: #519872;
+}
+
+.Password {
+  margin-right: 420px;
+  font-weight: bolder;
+}
+
+.Password-input {
+  height: 35px;
+  width: 750px;
+  margin-left: 130px;
+  font-size: 25px;
+  border-color: #519872;
+}
+
+.Login {
+  height: 50px;
+  width: 140px;
+  background-color: #8AEA92;
+  margin-left: 350px;
+  margin-top: 30px;
+  color: Black;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  cursor: pointer;
+}
+
+.Register {
+  height: 50px;
+  width: 140px;
+  background-color: #3B5249;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+.Right-side {
+  height: 100vh;
+  width: 450px;
+  background-color: #AFD4C0;
+  display: flex;
+  float: left;
+}

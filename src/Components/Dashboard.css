@@ -1,0 +1,148 @@
+.Dashboard {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+.Dashboard-body {
+    height: 100%;
+    /* width: 955px; */
+    width: 49vw;
+    background-color: #F6F0F0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+ .Work {
+   text-decoration: none;
+}
+
+.New-property {
+    height: 37px;
+    width: 200px;
+    background-color: #8AEA92;
+    font-size: 21px;
+    font-weight: bolder;
+    color: black;
+    padding-top: 13px;
+}
+
+.Filter-container {
+    width: 80%;
+    height: 80px;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid #000;
+    -webkit-box-sizing: border-box;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: Open Sans,sans-serif;
+} 
+
+.Filter-input {
+    height: 30px;
+    width: 80px;
+    border-radius: 3px;
+    font-size: 20px;
+    border-color: #519872;
+    margin-left: 6px;
+}
+
+.Filter-button {
+    background-color: #8AEA92;
+    height: 38px;
+    width: 70px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.Reset-button {
+    background-color: #3B5249;
+    height: 38px;
+    width: 70px;
+    margin-left: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.Home-listings {
+    color: black;
+    font-size: 20px;
+    width: 95%;
+    font-weight: bolder;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Home-listing-header {
+    margin: 25px 15px;
+}
+
+.Home-listing-data {
+    height: 178px;
+    width: 95%;
+    background: darkgray;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.Picture-side {
+    height: 90%;
+    width: 58%;
+    border-right: 1px solid #000;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Picture-container {
+    height: 100%;
+    width: 180px;
+    background-color: darkgray;
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+
+.Data-side {
+    height: 90%;
+    width: 42%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.Data-side p {
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.X-out {
+    height: 17px;
+    width: 15px;
+    background-image: url('../Pictures/delete_icon.png');
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.Dashboard-right {
+    height: 100vh;
+    width: 470px;
+    background-color: #AFD4C0;
+}

@@ -1,0 +1,154 @@
+.Wizard-1 {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Wizard-1-left {
+    height: 100vh;
+    width: 483px;
+    background-color: #AFD4C0;
+    display: flex;
+}
+
+.Wizard-main-container {
+    display: flex;
+}
+
+.Wizard-1-body {
+    height: 100vh;
+    width: 955px;
+    background-color: #F6F0F0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Listing-container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.New-listing-text {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.Cancel {
+    height: 35px;
+    width: 65px;
+    margin-top: 10px;
+    background-color: #FEC2C2;
+    color: black;
+    font-weight: bolder;
+}
+
+.Step-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Step {
+    margin-bottom: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+.Wiz-1-Blips {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width : 780px;
+    justify-content: space-around;
+}
+
+.Wiz-1-Blip-1 {
+    background-image: url('../../../Pictures/step_active.png');
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+
+.Wiz-1-Blip-2 {
+    background-image: url('../../../Pictures/step_inactive.png');
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+
+.Wiz-1-Blip-3 {
+    background-image: url('../../../Pictures/step_inactive.png');
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+
+.Wiz-1-Blip-4 {
+    background-image: url('../../../Pictures/step_inactive.png');
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+
+.Wiz-1-Blip-5 {
+    background-image: url('../../../Pictures/step_inactive.png');
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+
+.Property-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Property-name {
+    margin-top: 40px;
+    margin-right: 475px;
+    font-size: 22px;
+}
+
+.Prop-name-input {
+    height: 22px;
+    width: 680px;
+    border-color: #519872;
+    font-size: 18px;
+    resize: none;
+}
+
+.Prop-description {
+    margin-top: 20px;
+    margin-right: 415px;
+    font-size: 22px;
+}
+
+.Prop-desc-input {
+    height: 100px;
+    width: 680px;
+    border-color: #519872;
+    font-size: 18px;
+    resize: none;
+}
+
+.Wiz-1-next-button {
+    height: 40px;
+    width: 135px;
+    margin-top: 50px;
+    background-color: #3B5249;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.Wizard-1-right {
+    height: 100vh;
+    width: 482px;
+    background-color: #AFD4C0;
+}
