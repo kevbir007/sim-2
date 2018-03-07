@@ -1,4 +1,5 @@
 CREATE TABLE Property (
+    /*67G*/
     ID SERIAL PRIMARY KEY,
     Property_Name varchar(255),
     Description varchar(255),

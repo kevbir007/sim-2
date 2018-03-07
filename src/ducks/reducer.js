@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const initialState = {
+const initialState = { /* 43G */
     ID: '',
     Username: '',
     Password: '',
@@ -25,12 +25,12 @@ const UPDATE_PAGE_FOUR = 'UPDATE_PAGE_FOUR';
 const UPDATE_PAGE_FIVE = 'UPDATE_PAGE_FIVE';
 const UPDATE_HOME = 'UPDATE_HOME';
 
-function reducer( state = initialState, action ) { 
+function reducer( state = initialState, action ) { /* 43D */
     console.log(action.type)
-    switch( action.type ){
+    switch( action.type ){ /* 43E */
 
         case UPDATE_PAGE_ONE:
-        console.log('reducer', action.payload)
+        console.log('reducer', action.payload)/* 43F */
         return Object.assign( {}, state, { Property: action.payload.property,  Description: action.payload.description });
 
         case UPDATE_PAGE_TWO:

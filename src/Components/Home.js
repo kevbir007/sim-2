@@ -49,7 +49,7 @@ class Home extends React.Component {
     onSubmit() {
         const {history} = this.props
         this.props.dispatch(updateHome(this.state.username, this.state.password, history))
-        
+                /* 43J I had to use a weird way of doing this.  Doug and I struggled on this for about 2 hours and this is what we came up with */
     }
 
     render() {
@@ -82,8 +82,8 @@ class Home extends React.Component {
         );
     }
 }
-
-function mapStateToProps(state) {
+/* 43H */
+function mapStateToProps(state)/*43G*/ {
     return {
         Username: state.Username,
         Password: state.Password

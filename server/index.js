@@ -11,12 +11,12 @@ massive(process.env.CONNECTION_STRING).then( dbInstance => {
     app.set('db', dbInstance)});
 
 app.use( bodyParser.json() );
-app.use( cors() );
+app.use( cors() );/*75C 75D 75E */
 app.all("/api/*", (req, res, next) => {
     console.log("any kind of string")
     next()
 })
-app.use( session({
+app.use( session({/* 75F */
     secret: 'do I put anything here?',
     saveUninitialized: true,
     resave: true
